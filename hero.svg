@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#fb923c"/>
+    </linearGradient>
+    <linearGradient id="arrow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" rx="12" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03" stroke="#fff" stroke-width="1">
+    <line x1="0" y1="50" x2="1200" y2="50"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="700" y1="0" x2="700" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="900" y1="0" x2="900" y2="400"/>
+    <line x1="1000" y1="0" x2="1000" y2="400"/>
+    <line x1="1100" y1="0" x2="1100" y2="400"/>
+  </g>
+
+  <!-- Decorative backward arrow (large, subtle) -->
+  <g transform="translate(820, 80)" opacity="0.06">
+    <path d="M250 120 L50 120 L50 60 L0 140 L50 220 L50 160 L250 160 Z" fill="#f97316"/>
+  </g>
+
+  <!-- Left side: Text content -->
+  <g transform="translate(80, 0)">
+    <!-- Skill badge -->
+    <rect x="0" y="60" width="160" height="30" rx="15" fill="#f97316" opacity="0.15"/>
+    <text x="80" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#f97316" text-anchor="middle" letter-spacing="1.5">CLAUDE CODE SKILL</text>
+
+    <!-- Title -->
+    <text x="0" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#f8fafc">Press Release</text>
+    <text x="0" y="195" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="url(#accent)">/ FAQ</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#94a3b8">Amazon's Working Backwards methodology</text>
+    <text x="0" y="272" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#94a3b8">as a Claude Code skill</text>
+
+    <!-- Tagline -->
+    <text x="0" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748b" font-style="italic">"If you can't explain it in one page, the idea isn't clear enough."</text>
+  </g>
+
+  <!-- Right side: Flow diagram -->
+  <g transform="translate(680, 85)">
+    <!-- Step boxes -->
+    <!-- Step 1: Press Release -->
+    <rect x="0" y="0" width="180" height="52" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="0" width="4" height="52" rx="2" fill="#f97316"/>
+    <text x="20" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748b" font-weight="500">STEP 1</text>
+    <text x="20" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#e2e8f0" font-weight="600">Press Release</text>
+
+    <!-- Connector -->
+    <line x1="90" y1="52" x2="90" y2="72" stroke="#334155" stroke-width="1.5"/>
+    <polygon points="84,68 90,78 96,68" fill="#334155"/>
+
+    <!-- Step 2: FAQ -->
+    <rect x="0" y="78" width="180" height="52" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="78" width="4" height="52" rx="2" fill="#fb923c"/>
+    <text x="20" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748b" font-weight="500">STEP 2</text>
+    <text x="20" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#e2e8f0" font-weight="600">FAQ</text>
+
+    <!-- Connector -->
+    <line x1="90" y1="130" x2="90" y2="150" stroke="#334155" stroke-width="1.5"/>
+    <polygon points="84,146 90,156 96,146" fill="#334155"/>
+
+    <!-- Step 3: Build -->
+    <rect x="0" y="156" width="180" height="52" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="156" width="4" height="52" rx="2" fill="#fdba74"/>
+    <text x="20" y="178" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748b" font-weight="500">STEP 3</text>
+    <text x="20" y="196" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#e2e8f0" font-weight="600">Build</text>
+
+    <!-- Backward arrow label -->
+    <g transform="translate(200, 60)">
+      <path d="M0 80 C30 80, 30 0, 0 0" stroke="#f97316" stroke-width="1.5" fill="none" opacity="0.4" stroke-dasharray="4 3"/>
+      <text x="40" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#f97316" opacity="0.5" transform="rotate(-90, 40, 44)">backwards</text>
+    </g>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="394" width="1200" height="6" rx="0" fill="url(#accent)" opacity="0.6"/>
+</svg>

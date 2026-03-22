@@ -1,6 +1,15 @@
-# Press Release Skill for Claude Code
+<p align="center">
+  <img src="hero.svg" alt="Press Release / FAQ — Claude Code Skill" width="100%"/>
+</p>
 
-> Write a press release before building anything. If you can't explain the customer value in one page, the idea isn't clear enough.
+<p align="center">
+  <a href="#installation"><strong>Install</strong></a> ·
+  <a href="#usage"><strong>Usage</strong></a> ·
+  <a href="#template-structure"><strong>Template</strong></a> ·
+  <a href="#background-working-backwards"><strong>Background</strong></a>
+</p>
+
+---
 
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that guides you through Amazon's **Working Backwards** methodology — the PR/FAQ framework used to launch products like Kindle, AWS, and Alexa.
 
